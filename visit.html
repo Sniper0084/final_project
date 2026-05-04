@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visit Us | Mega Card Vault</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Mega Card Vault home">
+      <span class="logo-mark">MCV</span>
+      <span>Mega Card Vault</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="visit.html">Visit Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <p class="eyebrow">Visit Us</p>
+      <h1>Find the real location behind the project</h1>
+      <p>
+        This map points to Pokémon Center MEGA TOKYO & Pikachu Sweets inside Sunshine City alpa in Ikebukuro.
+      </p>
+    </section>
+
+    <section class="visit-grid">
+      <article class="info-card">
+        <h2>Address</h2>
+        <address>
+          Pokémon Center MEGA TOKYO & Pikachu Sweets<br />
+          Sunshine City alpa 2F<br />
+          3-1-2 Higashi-Ikebukuro<br />
+          Toshima-ku, Tokyo, 170-6002
+        </address>
+        <h3>Access</h3>
+        <p>
+          The location is near Higashi-Ikebukuro Station and Ikebukuro Station. It is inside a mall-style facility,
+          which makes it easier to reach by train and on foot.
+        </p>
+        <h3>Parking & Accessibility</h3>
+        <p>
+          Visitors can use Sunshine City facility services. Mall facilities typically include elevators, escalators,
+          restrooms, and accessible indoor paths. Check Sunshine City details before a real trip.
+        </p>
+      </article>
+
+      <article class="map-card">
+        <iframe
+          title="Map to Pokémon Center MEGA TOKYO"
+          src="https://www.google.com/maps?q=Pokemon%20Center%20MEGA%20TOKYO%20Sunshine%20City&output=embed"
+          width="100%"
+          height="380"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </article>
+    </section>
+
+    <section class="content-grid two-columns">
+      <article class="info-card">
+        <h2>Before you go</h2>
+        <ul class="check-list">
+          <li>Check the official store page for closures or schedule changes.</li>
+          <li>Bring a deck if you want to play casual battles.</li>
+          <li>Bring sleeves or a binder if you plan to buy cards.</li>
+          <li>Save extra time for Pikachu Sweets and photo spots.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>Contact Form</h2>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="your@email.com" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Ask about products, events, or visit info" required></textarea>
+
+          <button class="button primary" type="submit">Send Message</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Student project. Pokémon trademarks and product images belong to their respective owners.</p>
+    <p><a href="README.md">View project notes and image credits</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
